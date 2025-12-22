@@ -21,8 +21,7 @@ class Server
             bool IsFirs = true;
             while (true)
             {
-                if(IsFirs)
-                {
+
                     data = server.Receive(ref remoteEP);
                     //переделываем переданые биты в стринги
                     jsonm = Encoding.UTF8.GetString(data);
@@ -41,16 +40,7 @@ class Server
                         server.Send(responseData, responseData.Length, remoteEP);
                     }
                     IsFirs = false;
-                }
-                else
-                {
-                    data = server.Receive(ref remoteEP);
-                    //переделываем переданые биты в стринги
-                    jsonm = Encoding.UTF8.GetString(data);
-                    //распаковываем json пакетик в объект
-                    person = JsonSerializer.Deserialize<Pols>(jsonm);
-                    person.Pr(); //DELETE
-                }
+
                 
             }
         }
@@ -68,7 +58,7 @@ class Server
     //код "1" - успех, код "04" - такой пользователь уже существует
     private static string IsNewUser(string tag, string passwordhash)
     {
-        return "04";
+        return "1";
     }
     //класс как шаблон для json пакетиков
     public class Pols
@@ -84,6 +74,12 @@ class Server
             Console.WriteLine(Name + "\n" + Tag + "\n" + Password + "\n" + Token + "\n" + IsReg);
         }
     }
+        //data = server.Receive(ref remoteEP);
+                            ////переделываем переданые биты в стринги
+                            //jsonm = Encoding.UTF8.GetString(data);
+                            ////распаковываем json пакетик в объект
+                            //person = JsonSerializer.Deserialize<Pols>(jsonm);
+                            //person.Pr(); //DELETE
 }
 //public async Task Main(string[] args)
 //{

@@ -12,3 +12,18 @@ C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug
 C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.pdb
 C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.genruntimeconfig.cache
 C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\ref\Server Messanger.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\bin\Debug\net8.0\Server Messanger.exe
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\bin\Debug\net8.0\Server Messanger.deps.json
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\bin\Debug\net8.0\Server Messanger.runtimeconfig.json
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\bin\Debug\net8.0\Server Messanger.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\bin\Debug\net8.0\Server Messanger.pdb
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.AssemblyInfo.cs
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.sourcelink.json
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\refint\Server Messanger.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.pdb
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\Server Messanger.genruntimeconfig.cache
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Server Messanger\obj\Debug\net8.0\ref\Server Messanger.dll
