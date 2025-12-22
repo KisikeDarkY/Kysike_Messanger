@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.AssemblyInfo.cs
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\bin\Debug\net8.0\Server Messanger.exe
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\bin\Debug\net8.0\Server Messanger.deps.json
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\bin\Debug\net8.0\Server Messanger.runtimeconfig.json
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\bin\Debug\net8.0\Server Messanger.dll
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\bin\Debug\net8.0\Server Messanger.pdb
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.dll
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\refint\Server Messanger.dll
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.pdb
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\Server Messanger.genruntimeconfig.cache
+C:\Users\User\Desktop\my studies\top schol\дзшки\Server Messanger\obj\Debug\net8.0\ref\Server Messanger.dll
