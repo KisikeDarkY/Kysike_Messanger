@@ -9,7 +9,7 @@ namespace Messenger
 {
     public interface IMessage
     {
-        string Type { get; set; }
+         string Type { get; }
     }
 
     [JsonObject(ItemTypeNameHandling = TypeNameHandling.Auto)]

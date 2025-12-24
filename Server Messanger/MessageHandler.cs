@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace Messenger
 {
@@ -18,7 +18,7 @@ namespace Messenger
                 Formatting = Formatting.Indented
             };
 
-            string json = JsonConvert.SerializeObject(new MessageContainer(message), settings); //формируем json пакетик
+            string json = JsonConvert.SerializeObject(new MessageContainer(message), settings);
 
             return Encoding.UTF8.GetBytes(json);
         }

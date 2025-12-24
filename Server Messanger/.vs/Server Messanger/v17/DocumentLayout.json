@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\server messanger\\commuication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|c:\\users\\user\\desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\kysike messanger\\server messanger\\commuication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|solutionrelative:commuication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\server messanger\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|c:\\users\\user\\desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\kysike messanger\\server messanger\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|solutionrelative:messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\server messanger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|c:\\users\\user\\desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\kysike messanger\\server messanger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC549A19-A3C7-4FA2-8265-C2F5D6C1AC3D}|Server Messanger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MessageHandler.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\MessageHandler.cs",
-              "RelativeDocumentMoniker": "MessageHandler.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\MessageHandler.cs",
-              "RelativeToolTip": "MessageHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T16:43:05.997Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Commuication.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\Commuication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\Commuication.cs",
               "RelativeDocumentMoniker": "Commuication.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\Commuication.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\Commuication.cs",
               "RelativeToolTip": "Commuication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T16:23:14.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\MessageHandler.cs",
+              "RelativeDocumentMoniker": "MessageHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\MessageHandler.cs",
+              "RelativeToolTip": "MessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:43:05.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Server Messanger\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\Server Messanger\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:26:14.54Z"
+              "WhenOpened": "2025-12-19T14:26:14.54Z",
+              "EditorCaption": ""
             }
           ]
         }
