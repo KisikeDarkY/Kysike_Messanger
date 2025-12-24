@@ -1,0 +1,13 @@
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\MessangerServer.exe.config
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\MessangerServer.exe
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\MessangerServer.pdb
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\MessageLibrary.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\MessageLibrary.pdb
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\Messange.C19D5E99.Up2Date
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.exe
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.pdb
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.exe.config

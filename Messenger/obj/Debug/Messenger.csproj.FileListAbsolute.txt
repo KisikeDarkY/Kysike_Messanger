@@ -103,3 +103,5 @@ C:\Users\User\Desktop\my studies\top schol\дзшки\Kysike messanger\Messenger
 C:\Users\User\Desktop\my studies\top schol\дзшки\Kysike messanger\Messenger\obj\Debug\Messenger.csproj.Up2Date
 C:\Users\User\Desktop\my studies\top schol\дзшки\Kysike messanger\Messenger\obj\Debug\Messenger.exe
 C:\Users\User\Desktop\my studies\top schol\дзшки\Kysike messanger\Messenger\obj\Debug\Messenger.pdb
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Messenger\bin\Debug\MessageLibrary.dll
+C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Messenger\bin\Debug\MessageLibrary.pdb

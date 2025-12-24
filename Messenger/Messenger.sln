@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger", "Messenger.csproj", "{F22C002D-67C2-4EAD-BB86-F94FBBD58341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageLibrary", "..\MessageLibrary\MessageLibrary.csproj", "{00B79A4F-6259-4A29-8B91-A1E58134BDC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F22C002D-67C2-4EAD-BB86-F94FBBD58341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22C002D-67C2-4EAD-BB86-F94FBBD58341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22C002D-67C2-4EAD-BB86-F94FBBD58341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B79A4F-6259-4A29-8B91-A1E58134BDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B79A4F-6259-4A29-8B91-A1E58134BDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B79A4F-6259-4A29-8B91-A1E58134BDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B79A4F-6259-4A29-8B91-A1E58134BDC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,20 +1,11 @@
 ﻿using BCrypt.Net;
-using Messenger;
-using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using CommunicationLib;
 
 namespace Messenger
 {
@@ -219,22 +210,6 @@ namespace Messenger
 
             return true;
         } //такая же проверка но для полей входа
-    }
-    //класс для json пакетиков
-    [Serializable]
-    public class RegPols : IMessage
-    {
-        public string Type { get; set; } = "regpols";
-        public string Name { get; set; }
-        public string Tag { get; set; }
-        public string Password { get; set; }
-        public int Token { get; set; }
-    }
-    public class InsPols
-    {
-        public string Tag { get; set; }
-        public string Password { get; set; }
-        public int Token { get; set; }
     }
 }
 
