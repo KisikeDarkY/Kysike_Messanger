@@ -105,3 +105,40 @@ C:\Users\User\Desktop\my studies\top schol\дзшки\Kysike messanger\Messenger
 C:\Users\User\Desktop\my studies\top schol\дзшки\Kysike messanger\Messenger\obj\Debug\Messenger.pdb
 C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Messenger\bin\Debug\MessageLibrary.dll
 C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\Messenger\bin\Debug\MessageLibrary.pdb
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Messenger.exe.config
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Messenger.exe
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\MessageLibrary.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.IO.Pipelines.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Text.Json.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\MessageLibrary.pdb
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.IO.Pipelines.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Text.Json.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.exe.config
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.Form1.resources
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.Properties.Resources.resources
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.Window_Messager.resources
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.csproj.Up2Date
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.exe
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\Messenger\obj\Debug\Messenger.pdb

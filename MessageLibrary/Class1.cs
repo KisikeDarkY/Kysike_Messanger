@@ -47,20 +47,29 @@ namespace CommunicationLib
         public string Name { get; set; }
         public string Tag { get; set; }
         public string Password { get; set; }
-        public int Token { get; set; }
         public void Pr()
         {
-            Console.WriteLine(Name + "\n" + Tag + "\n" + Password + "\n" + Token + "\n");
+            Console.WriteLine(Name + "\n" + Tag + "\n" + Password + "\n");
         }
     }
     public class InsPols : IMessage
     {
         public string Tag { get; set; }
         public string Password { get; set; }
-        public int Token { get; set; }
         public void Pr()
         {
-            Console.WriteLine(Tag + "\n" + Password + "\n" + Token + "\n");
+            Console.WriteLine(Tag + "\n" + Password + "\n");
         }
+    }
+    public class AnswerServer : IMessage
+    {
+        public string Code { get; set; }
+        public string Token { get; set; }
+    }
+    public class UserMessage : IMessage
+    {
+        public string Tag { get; set; }
+        public string Token { get; set; }
+        public string Message { get; set; }
     }
 }

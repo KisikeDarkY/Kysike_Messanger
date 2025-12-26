@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00B79A4F-6259-4A29-8B91-A1E58134BDC0}|MessageLibrary.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\messagelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B79A4F-6259-4A29-8B91-A1E58134BDC0}|MessageLibrary.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\kysike_messanger\\messagelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B79A4F-6259-4A29-8B91-A1E58134BDC0}|MessageLibrary.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
               "RelativeToolTip": "Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T16:17:01.121Z",
               "EditorCaption": ""

@@ -13,7 +13,6 @@ namespace Messenger
     {
         public static Random random = new Random();
         private string json; //json пакетик
-        private int token = random.Next(10000); //создаем рандомный токен
         private IPEndPoint serverEP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 55555); //создаем конечную точку сервера
         private IPEndPoint responceEP = new IPEndPoint(IPAddress.Any, 0); //создаем конечную точку для получения данных
         public Form1()
@@ -34,8 +33,7 @@ namespace Messenger
                 {
                     Name = Name_TextBox.Text,
                     Tag = Tag_TextBox.Text,
-                    Password = BCrypt.Net.BCrypt.HashPassword(Pasword_TextBox.Text, workFactor: 12),
-                    Token = token,
+                    Password = Pasword_TextBox.Text
 
                 };
 
@@ -48,52 +46,45 @@ namespace Messenger
                     //отправляем пакетик
                     udpClient.Send(data, data.Length, serverEP);
 
-                    //bool ServNotAnswer = true;
+                    bool ServNotAnswer = true;
 
-                    //IMessage ans = null;
-                    //while (ServNotAnswer)
-                    //{
-                    //    byte[] responseData = udpClient.Receive(ref responceEP);
-                    //    ans = MessageHandler.HandleMessage(responseData);
-                    //    ServNotAnswer = false;
-                    //}
-
-                    //if (ans is RegPols)
-                    //{
-                    //    RegPols pols = (RegPols)ans;
-                    //}
-
-
-                    ////успешный случай
-                    //if (answer == "1")
-                    //{
-                    //    udpClient.Close();
-                    //    MessageBox.Show("Вы успешно создали и вошли в аккаунт");
-                    //    //Код для перехода в сам месенджер
-                    //    Window_Messager messager = new Window_Messager(token, "n.Tag", serverEP, responceEP);
-                    //    messager.FormClosed += (s, args) => this.Show();
-                    //    this.Hide();
-                    //    Name_TextBox.Text = "";
-                    //    Pasword_TextBox.Text = "";
-                    //    Tag_TextBox.Text = "";
-                    //    Input_tagTB.Text = "";
-                    //    Input_PasswordTB.Text = "";
-                    //    messager.Show();
-                    //}
-                    ////проверка кодов ошибок
-                    //else if (answer == "04")
-                    //{
-                    //    MessageBox.Show("Такой пользователь уже существует");
-                    //    udpClient.Close();
-                    //    Application.Restart();
-                    //}
-                    ////если ответ от сервера был странный
-                    //else
-                    //{
-                    //    MessageBox.Show("Некорректный ответ от сервера");
-                    //    udpClient.Close();
-                    //    Application.Restart();
-                    //}
+                    IMessage ans = null;
+                    while (ServNotAnswer)
+                    {
+                        ans = MessageHandler.HandleMessage(udpClient.Receive(ref responceEP));
+                        ServNotAnswer = false;
+                    }
+                    if(ans is AnswerServer)
+                    {
+                        AnswerServer ansSr = (AnswerServer)ans;
+                        if(ansSr.Code == "1")
+                        {
+                            udpClient.Close();
+                            MessageBox.Show("Вы успешно создали и вошли в аккаунт");
+                            //Код для перехода в сам месенджер
+                            Window_Messager messager = new Window_Messager(ansSr.Token, Tag_TextBox.Text, serverEP, responceEP);
+                            messager.FormClosed += (s, args) => this.Show();
+                            this.Hide();
+                            Name_TextBox.Text = "";
+                            Pasword_TextBox.Text = "";
+                            Tag_TextBox.Text = "";
+                            Input_tagTB.Text = "";
+                            Input_PasswordTB.Text = "";
+                            messager.Show();
+                        }
+                        else if( ansSr.Code == "04")
+                        {
+                            udpClient.Close();
+                            MessageBox.Show("Пользователь уже существует!");
+                            Application.Restart();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Некорректный ответ от сервера");
+                            udpClient.Close();
+                            Application.Restart();
+                        }
+                    }
                 }
             }
         }
@@ -104,69 +95,66 @@ namespace Messenger
                 var n = new InsPols
                 {
                     Tag = Input_tagTB.Text,
-                    Password = BCrypt.Net.BCrypt.HashPassword(Input_PasswordTB.Text, workFactor: 12),
-                    Token = token
-                }; 
-                json = JsonSerializer.Serialize(n);//так же json пакетик
+                    Password = Input_PasswordTB.Text
+                };
+                byte[] data = MessageHandler.ConvertMessage(n);
 
                 using (UdpClient udpClient = new UdpClient())
                 {
-                    byte[] data = Encoding.UTF8.GetBytes(json);
                     //отправляем пакетик
                     udpClient.Send(data, data.Length, serverEP);
 
-                    //ждём ответ от сервера
-                    IMessage ans = null;
                     bool ServNotAnswer = true;
+
+                    IMessage ans = null;
                     while (ServNotAnswer)
                     {
-                        byte[] responseData = udpClient.Receive(ref responceEP);
-                        ans = MessageHandler.HandleMessage(responseData);
+                        ans = MessageHandler.HandleMessage(udpClient.Receive(ref responceEP));
                         ServNotAnswer = false;
                     }
-
-                    ////успешный случай
-                    //if(answer == "1")
-                    //{
-                    //  udpClient.Close();
-                    //  MessageBox.Show("Вы успешно вошли в аккаунт");
-                    //  //Код для перехода в сам месенджер
-                    //  Window_Messager messager = new Window_Messager(token, "n.Tag", serverEP, responceEP);
-                    //  messager.FormClosed += (s, args) => this.Show();
-                    //  this.Hide();
-                    //  Name_TextBox.Text = "";
-                    //  Pasword_TextBox.Text = "";
-                    //  Tag_TextBox.Text = "";
-                    //  Input_tagTB.Text = "";
-                    //  Input_PasswordTB.Text = "";
-                    //  messager.Show();
-                    //}
-                    ////проверка кодов ошибок
-                    //else if (answer == "01") 
-                    //{
-                    //    MessageBox.Show("Неправильный Tag");
-                    //    udpClient.Close();
-                    //    Application.Restart();
-                    //}
-                    //else if (answer == "02")
-                    //{
-                    //    MessageBox.Show("Неправильный Пароль");
-                    //    udpClient.Close();
-                    //    Application.Restart();
-                    //}
-                    //else if (answer == "03")
-                    //{
-                    //    MessageBox.Show("Это не вы");
-                    //    udpClient.Close();
-                    //    Application.Restart();
-                    //}
-                    ////если ответ от сервера был странный
-                    //else
-                    //{
-                    //    MessageBox.Show("Некорректный ответ от сервера");
-                    //    udpClient.Close();
-                    //    Application.Restart();
-                    //}  
+                    if (ans is AnswerServer)
+                    {
+                        AnswerServer ansSr = (AnswerServer)ans;
+                        if (ansSr.Code == "1")
+                        {
+                            udpClient.Close();
+                            MessageBox.Show("Вы успешно вошли в аккаунт");
+                            //Код для перехода в сам месенджер
+                            Window_Messager messager = new Window_Messager(ansSr.Token, Input_tagTB.Text, serverEP, responceEP);
+                            messager.FormClosed += (s, args) => this.Show();
+                            this.Hide();
+                            Name_TextBox.Text = "";
+                            Pasword_TextBox.Text = "";
+                            Tag_TextBox.Text = "";
+                            Input_tagTB.Text = "";
+                            Input_PasswordTB.Text = "";
+                            messager.Show();
+                        }
+                        else if (ansSr.Code == "01")
+                        {
+                            udpClient.Close();
+                            MessageBox.Show("Не правильный Tag");
+                            Application.Restart();
+                        }
+                        else if (ansSr.Code == "02")
+                        {
+                            udpClient.Close();
+                            MessageBox.Show("Не правильный пароль");
+                            Application.Restart();
+                        }
+                        else if (ansSr.Code == "03")
+                        {
+                            udpClient.Close();
+                            MessageBox.Show("Некоректный токен");
+                            Application.Restart();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Некорректный ответ от сервера");
+                            udpClient.Close();
+                            Application.Restart();
+                        }
+                    }
                 }
             }
         }

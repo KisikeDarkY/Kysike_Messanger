@@ -1,28 +1,29 @@
-﻿using System;
+﻿using BCrypt.Net;
+using CommunicationLib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 using System.Text.Json;
-using BCrypt.Net;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Messenger
 {
     public partial class Window_Messager : Form
     {
-        private string json;
-        private string answer;
-        private int token; //токен
-        private string tag; //Tag
+        
+        private string token;
+        private string tag; 
         private IPEndPoint serverEP;
         private IPEndPoint responceEP;
-        public Window_Messager(int Token, string Tag, IPEndPoint ServerEP, IPEndPoint ResponceEP)
+        public Window_Messager(string Token, string Tag, IPEndPoint ServerEP, IPEndPoint ResponceEP)
         {
             InitializeComponent();
             token = Token;
@@ -38,51 +39,57 @@ namespace Messenger
 
         private void Send_button_Click(object sender, EventArgs e)
         {
-            var m = new Wor
+            IMessage ans = null;
+            var m = new UserMessage
             {
                 Tag = tag,
                 Token = token,
                 Message = UsingRTB.Text
             };
-            json = JsonSerializer.Serialize(m);
+            byte[] data = MessageHandler.ConvertMessage(m);
 
-            using(UdpClient  udpClient = new UdpClient())
+            MessageBox.Show(Encoding.UTF8.GetString(data));
+
+            using (UdpClient  udpClient = new UdpClient())
             {
-                byte[] data = Encoding.UTF8.GetBytes(json);
+                State_messageCB.Checked = false;
                 //отправляем пакетик
                 udpClient.Send(data, data.Length, serverEP);
 
                 bool ServNotAnswer = true;
                 while (ServNotAnswer)
                 {
-                    byte[] responseData = udpClient.Receive(ref responceEP);
-                    answer = Encoding.UTF8.GetString(responseData);
+                    ans = MessageHandler.HandleMessage(udpClient.Receive(ref responceEP));
                     ServNotAnswer = false;
                 }
-                if(answer == "1")
+                State_messageCB.Checked = false;
+                if (ans is AnswerServer)
                 {
-                   
-                }
-                else if(answer == "03") 
-                {
-                  
-                }
-                else
-                {
-                   
+                    AnswerServer ansSr = (AnswerServer)ans;
+                    if (ansSr.Code == "1")
+                    {
+                        State_messageCB.Checked = true;
+                        OutputRTB.Text = $"{OutputRTB.Text} \n <{tag}> {UsingRTB.Text}";
+                    }
+                    else if (ansSr.Code == "01")
+                    {
+                        MessageBox.Show("01");
+                    }
+                    else if (ansSr.Code == "03")
+                    {
+                        MessageBox.Show($"03: {token}");
+                    }
+                    else
+                    {
+                        MessageBox.Show("-1");
+                    }
                 }
             }
         }
 
         private void Exit_button_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
-    }
-    public class Wor
-    {
-        public string Tag { get; set; }
-        public int Token { get; set; }
-        public string Message { get; set; }
     }
 }

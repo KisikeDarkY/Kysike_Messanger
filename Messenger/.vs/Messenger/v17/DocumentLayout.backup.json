@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\kysike_messanger\\messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\window messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|solutionrelative:window messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Window Messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Window Messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|solutionrelative:Window Messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B79A4F-6259-4A29-8B91-A1E58134BDC0}|..\\MessageLibrary\\MessageLibrary.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\messagelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00B79A4F-6259-4A29-8B91-A1E58134BDC0}|..\\MessageLibrary\\MessageLibrary.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\kysike_messanger\\messagelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\window messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F22C002D-67C2-4EAD-BB86-F94FBBD58341}|Messenger.csproj|solutionrelative:window messager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,50 +33,50 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
               "RelativeDocumentMoniker": "..\\MessageLibrary\\Class1.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
               "RelativeToolTip": "..\\MessageLibrary\\Class1.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T16:24:04.953Z",
+              "WhenOpened": "2025-12-25T20:47:57.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwGMAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAIAwwHoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T14:17:21.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Window Messager.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Window Messager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Window Messager.cs",
               "RelativeDocumentMoniker": "Window Messager.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Window Messager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Window Messager.cs",
               "RelativeToolTip": "Window Messager.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwAYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwE8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T16:15:15.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T14:16:47.999Z",
@@ -84,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Window Messager.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Window Messager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Window Messager.cs",
               "RelativeDocumentMoniker": "Window Messager.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\Messenger\\Window Messager.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\Messenger\\Window Messager.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Window Messager.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T16:15:03.961Z",

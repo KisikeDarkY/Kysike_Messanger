@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessangerServer\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\MessangerServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F29492AC-424C-4B32-95B1-39C8F3CB7E5C}|MessangerServer.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\messangerserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F29492AC-424C-4B32-95B1-39C8F3CB7E5C}|MessangerServer.csproj|c:\\users\\user\\desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\kysike messanger\\messangerserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F29492AC-424C-4B32-95B1-39C8F3CB7E5C}|MessangerServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B79A4F-6259-4A29-8B91-A1E58134BDC0}|..\\MessageLibrary\\MessageLibrary.csproj|c:\\users\\student\\desktop\\voidn\\km\\kysike_messanger\\messagelibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,24 +23,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\MessageLibrary\\Class1.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
-              "RelativeToolTip": "..\\MessageLibrary\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Kysike_Messanger\\MessageLibrary\\Class1.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA4wCwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T16:27:48.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-25T20:47:22.486Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessangerServer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\MessangerServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\voidn\\KM\\Kysike_Messanger\\MessangerServer\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\my studies\\top schol\\\u0434\u0437\u0448\u043A\u0438\\Kysike messanger\\MessangerServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowDwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T16:15:51.735Z",
               "EditorCaption": ""

@@ -11,3 +11,26 @@ C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\Mes
 C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.exe
 C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.pdb
 C:\Users\student\Desktop\voidn\KM\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.exe.config
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\MessangerServer.exe.config
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\MessangerServer.exe
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\MessangerServer.pdb
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\MessageLibrary.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\MessageLibrary.pdb
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.exe.config
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\obj\Debug\Messange.C19D5E99.Up2Date
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.exe
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\obj\Debug\MessangerServer.pdb
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\Новая папка\Kysike_Messanger\MessangerServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
